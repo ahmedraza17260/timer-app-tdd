@@ -3,7 +3,7 @@ import { shallow, ShallowWrapper } from 'enzyme'
 import Timer from './Timer';
 
 describe('Timer', () => {
-    let container: ShallowWrapper;
+    let container: ShallowWrapper<any, Readonly<{}>, React.Component<{}, {}, any>>
 
     beforeEach(() => (container = shallow(<Timer />)))
 
