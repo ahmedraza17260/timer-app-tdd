@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './Components/App/App';
+import App from './App';
 import { initializeFirebase } from './pushNotification';
 import * as serviceWorker from './serviceWorker';
 // import 'firebase/<PACKAGE>';

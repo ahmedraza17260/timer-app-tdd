@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow, ShallowWrapper } from 'enzyme';
 // import { mount } from 'enzyme';
 import App from './App';
-import Timer from '../Timer/Timer';
+import Timer from './Components/Timer/Timer';
 
 describe('App', () => {
   let container: ShallowWrapper<any, Readonly<{}>, React.Component<{}, {}, any>>

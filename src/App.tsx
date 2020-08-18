@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Timer from '../Timer/Timer';
+import Timer from './Components/Timer/Timer';
 import firebase from 'firebase';
 import axios from 'axios';
 
